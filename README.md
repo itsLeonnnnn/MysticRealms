@@ -1,5 +1,8 @@
 # Mystic Realm - a CPP-based RPG game
-Developed by CPT113 Group 8 for Hackathon Assignment 2
+Developed by **CPT113 Group 8** for Hackathon Assignment 2.
+
+**Disclaimer:** This game is a product of our coursework assignment and is intended for educational purposes only. The game may contain bugs, errors, or incomplete features, as it is not a professional release.
+
 
 | Members' Full Name | Matric No.  |
 |:-:|:-:|

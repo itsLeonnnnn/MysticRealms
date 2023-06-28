@@ -33,28 +33,28 @@ So, will you conquer the goblin, witch, and big boss, unlocking your path to fre
  1. **Game Over and Victory Condition**
 
     
-We have implemented game over condition, in which the player health have reached zero and define victory condition in which the player has conquered the goblin, witch and big boss.
+We have implemented a game over the victory condition, in which the player's health has reached zero and defined the victory condition in which the player has conquered the goblin, witch and big boss.
     
  
 
  2. **Combat system**
 
-We have implemented a combat system that allows player to engage with battles with the goblin, witch and big boss and have include mechanics such as attack, heal, critical hit and magic attack. 
+We have implemented a combat system that allows players to engage in battles with the goblin, witch and big boss and has included mechanics such as an attack, heal, critical hit and magic attack. 
   
 
  3. **Leveling system**
 
-We have designed a leveling system where players advance by defeating specific enemies in a predetermined order. For example, players must first win the battle with a Goblin, followed by a Witch, and finally face off against a Big Boss. Each victory unlocks the next level or area of the game, presenting new challenges and enemies to overcome.  his modified leveling system allows players to progress through the game by defeating specific enemies, effectively serving as milestones or checkpoints that unlock new content and challenges.
+We have designed a levelling system where players advance by defeating specific enemies in a predetermined order. For example, players must first win the battle with a Goblin, followed by a Witch, and finally face off against a Big Boss. Each victory unlocks the next level or area of the game, presenting new challenges and enemies to overcome.  his modified levelling system allows players to progress through the game by defeating specific enemies, effectively serving as milestones or checkpoints that unlock new content and challenges.
 
      
 
  4. **Save and load feature**
 
-Our game offers a convenient save and load feature, allowing players to effortlessly continue their adventure or start a new game. Upon entering the game, players are presented with a user-friendly menu that provides four option. Two of the options are starting a new game or loading a previously saved progress.
+Our game offers a convenient save and load feature, allowing players to effortlessly continue their adventure or start a new game. Upon entering the game, players are presented with a user-friendly menu that provides four options. Two of the options are starting a new game or loading a previously saved progress.
 
 By choosing the "Start Game" option, players initiate a fresh and immersive adventure, delving into the extraordinary world and captivating storyline. They will embark on a thrilling journey, overcoming challenging stages and encountering formidable creatures.
     
-Alternatively, selecting the "Load Previous Progress" option allows players to seamlessly continue their previous adventure. By accessing their autosaved game files, they can pick up right where they left off, immersing themselves back into the mysterious realm, resuming their exploration.
+Alternatively, selecting the "Load Previous Progress" option allows players to seamlessly continue their previous adventure. By accessing their autosaved game files, they can pick up right where they left off, immersing themselves back into the mysterious realm, and resuming their exploration.
 
 The save and load feature serves as a valuable and convenient tool for players, eliminating the need for manual saving.
     
@@ -70,21 +70,14 @@ With the inclusion of the save and load feature, our game grants players the fre
 
 ### Game Rules
 
- - After being transported to a mysterious and fantastical world, you
-   embark on an epic adventure.
- - Your goal is to collect three precious gemstones and defeat three
-   formidable bosses to achieve victory.
+ - After being transported to a mysterious and fantastical world, you embark on an epic adventure.
+ - Your goal is to collect three precious gemstones and defeat three formidable bosses to achieve victory.
  - Along the way, you will encounter various challenges and enemies.
- - Your choices and actions will influence the outcome of the game, so
-   choose wisely.
- - Your character's health points (HP) represent their vitality. If your
-   HP reaches zero, you lose the game.
- - After completing each stage, your HP will be restored to its maximum
-   value in preparation for the next challenge.
- - To win the game, you must collect three precious gemstones and defeat
-   all three bosses: the goblin, the witch, and the big boss.
- - Strategic thinking and resource management are crucial to win the
-   game.
+ - Your choices and actions will influence the outcome of the game, so choose wisely.
+ - Your character's health points (HP) represent their vitality. If your HP reaches zero, you lose the game.
+ - After completing each stage, your HP will be restored to its maximum value in preparation for the next challenge.
+ - To win the game, you must collect three precious gemstones and defeat all three bosses: the goblin, the witch, and the big boss.
+ - Strategic thinking and resource management are crucial to win the game.
 
 ### Guidelines
 
@@ -93,7 +86,7 @@ With the inclusion of the save and load feature, our game grants players the fre
 2. In this game, you will assume the role of a courageous player and embark on an epic adventure. Your decisions and actions will shape the outcome of the game, so choose wisely and brace yourself for an unforgettable experience!
 
 
-3. As the game begins,you will be greeted with a welcome word, that welcome the  to this game. The player will get to choose 4 options.
+3. As the game begins, you will be greeted with a welcome word, that welcomes the  to this game. The player will get to choose 4 options.
 
        a. "Start Game": Begin a new game.
        b. "Load Previous Progress": Resume the game from where you left off.
@@ -140,17 +133,17 @@ Our RPG game's code has been organized and structured using object-oriented prin
 
 The game uses inheritance to create specialized characters in order to facilitate code reuse and specialisation. Inheritance is used to build derived classes that inherit the traits and characteristics of a base class. An "is-a" relationship between classes is established, whereby a derived or child class inherits the characteristics of a base or parent class. There are a number of classes in our programmes, including the Goblin, Witch, and Boss classes, all of which are derived from the Character class to obtain the necessary information for each character in the game. 
 
-Each of our class is represented by a class definition, which includes the properties and behaviors specific to the class. 
+Each of our classes is represented by a class definition, which includes the properties and behaviours specific to the class. 
 
-The core foundation of our game's object-oriented design lies in the Character class. This base class encapsulates common properties and behaviors shared by all characters in the game, such as health, strength, magic, and potions. By defining these attributes in the base class, we promote code reuse and avoid duplication of code. Furthermore, encapsulating these attributes within the class provides data integrity and controlled access through member functions.
+The core foundation of our game's object-oriented design lies in the Character class. This base class encapsulates common properties and behaviours shared by all characters in the game, such as health, strength, magic, and potions. By defining these attributes in the base class, we promote code reuse and avoid duplication of code. Furthermore, encapsulating these attributes within the class provides data integrity and controlled access through member functions.
 
 To create specialized characters in the game, we employ derived classes that inherit from the Character class.
 
 > #### The Derived Classes: Goblin, Witch, and Boss
 
-The Goblin, Witch, and Boss classes are derived classes that extend the functionality of the base class while adding their own unique characteristics. These derived classes inherit the attributes and member functions defined in the base class, allowing them to leverage the existing code and behavior.
+The Goblin, Witch, and Boss classes are derived classes that extend the functionality of the base class while adding their own unique characteristics. These derived classes inherit the attributes and member functions defined in the base class, allowing them to leverage the existing code and behaviour.
 
-Each derived class defines its own specific behaviors through member functions. For example, the Goblin class may have member functions for attacking, healing, and performing critical hits, while the Witch class may have additional member functions for magic attacks. These member functions represent the actions and abilities of each character type, encapsulating their specific behaviors and enabling modularity within the codebase.
+Each derived class defines its own specific behaviours through member functions. For example, the Goblin class may have member functions for attacking, healing, and performing critical hits, while the Witch class may have additional member functions for magic attacks. These member functions represent the actions and abilities of each character type, encapsulating their specific behaviours and enabling modularity within the codebase.
 
 
 > #### Code Organization and Header Files
@@ -162,7 +155,7 @@ To facilitate better code organization and management, the class definitions are
 
 By utilising inheritance, our RPG game's code achieves a clear and hierarchical organization of classes, providing a flexible and extensible framework for implementing various game systems. The base Character class provides a foundation with shared functionality, while the derived classes specialize and extend that functionality to create unique character types. This approach promotes modularity, maintainability, and extensibility in the design and implementation of RPG game systems, making the codebase easier to understand, modify, and enhance.
 
-In conclusion, the use of object-oriented principles, specifically inheritance, in our RPG game's code allows for code reuse, specialization, and organization. The base Character class and its derived classes provide a structured and modular approach to represent different character types and their behaviors. This approach enhances code maintainability, promotes a clear separation of concerns, and enables future expansion and modification of the game's systems.
+In conclusion, the use of object-oriented principles, specifically inheritance, in our RPG game's code allows for code reuse, specialization, and organization. The base Character class and its derived classes provide a structured and modular approach to represent different character types and their behaviours. This approach enhances code maintainability, promotes a clear separation of concerns, and enables future expansion and modification of the game's systems.
 
 
 
@@ -195,7 +188,7 @@ In conclusion, the InventoryList, with its appendNode and displayList functions,
 
 > #### (2) Game Completion and Linked Lists
 
-The ultimate goal of the player is to exit the realm, but this feat can only be achieved by collecting all three treasure: the gold ingot, emerald, and diamond. Here, the first linked list plays an irreplaceable role in determining the player's progress towards game completion. By acting as a condition for exit, the linked list ensures that the player has collected all three treasures before the player could back to the world he used to be. Without the linked list, the player would be unable to fulfill the requirements for game completion and subsequent exit.
+The ultimate goal of the player is to exit the realm, but this feat can only be achieved by collecting all three treasures: the gold ingot, emerald, and diamond. Here, the first linked list plays an irreplaceable role in determining the player's progress towards game completion. By acting as a condition for the exit, the linked list ensures that the player has collected all three treasures before the player could back to the world he used to be in. Without the linked list, the player would be unable to fulfil the requirements for game completion and subsequent exit.
 
 
 > #### (3) Enabling Save and Load Functionality with SaveNode Linked List
@@ -229,6 +222,6 @@ Overall, the SaveNode Linked List serves as a way for the game to keep track of 
 
 By dynamically allocating and updating the linked lists, the game allows treasures to be added or removed as the player interacts with the game world. This dynamic nature of the linked lists enables the player to actively engage with their inventory, visualize their progress, and make strategic decisions that directly impact their gameplay experience.
 
-The inclusion of linked lists, such as the InventoryList Linked List and the saveNode Linked List, enhances player engagement and immersion. These linked lists provide clear visual representations of player progress, inventory management, and saved game data, creating a sense of achievement and progression.
+The inclusion of linked lists, such as the InventoryList Linked List and the saveNode Linked List, enhance player engagement and immersion. These linked lists provide clear visual representations of player progress, inventory management, and saved game data, creating a sense of achievement and progression.
 
-In our game, the linked lists are being dynamically allocated. This has enabled the treasures being added or removed easily as the player interacts with the game world, and game data being saved and loaded seamlessly, creating a sense of agency and immersion. As a result, players can actively engage with their inventory, visualize their progress, and make strategic decisions that directly impact their gameplay experience.They can strategically plan their battles, develop their skills, overcome formidable adversariesand adapt their gameplay strategy based on the information provided by the linked lists.
+In our game, the linked lists are dynamically allocated. This has enabled the treasures to be added or removed easily as the player interacts with the game world, and game data is saved and loaded seamlessly, creating a sense of agency and immersion. As a result, players can actively engage with their inventory, visualize their progress, and make strategic decisions that directly impact their gameplay experience. They can strategically plan their battles, develop their skills, overcome formidable adversaries and adapt their gameplay strategy based on the information provided by the linked lists.

@@ -63,11 +63,7 @@ By choosing the "Start Game" option, players initiate a fresh and immersive adve
     
 Alternatively, selecting the "Load Previous Progress" option allows players to seamlessly continue their previous adventure. By accessing their autosaved game files, they can pick up right where they left off, immersing themselves back into the mysterious realm, and resuming their exploration.
 
-The save and load feature serves as a valuable and convenient tool for players, eliminating the need for manual saving.
-    
-This enhances their overall enjoyment and ensures a personalized gameplay experience tailored to their preferences.
-
-With the inclusion of the save and load feature, our game grants players the freedom to choose their gaming path, whether it's embarking on a new adventure or seamlessly continuing their journey from the autosaved point.
+The save and load feature serves as a valuable and convenient tool for players, eliminating the need for manual saving. This enhances their overall enjoyment and ensures a personalized gameplay experience tailored to their preferences. With the inclusion of the save and load feature, our game grants players the freedom to choose their gaming path, whether it's embarking on a new adventure or seamlessly continuing their journey from the autosaved point.
    
      
 

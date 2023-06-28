@@ -370,5 +370,5 @@ Game clear interfaces are shown.
 ![enter image description here](https://i.imgur.com/Kq9Acji.png)
 
 ***
-**Gameplay Video**
+## Gameplay Video <a name="video"></a>
 

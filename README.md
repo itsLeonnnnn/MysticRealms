@@ -371,4 +371,4 @@ Game clear interfaces are shown.
 
 ***
 ## Gameplay Video <a name="video"></a>
-
+[Click this to watch the Gameplay Video](https://bit.ly/CPT113-G8-MysticRealms)

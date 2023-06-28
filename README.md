@@ -1,5 +1,11 @@
-# Mystic Realm
+# Mystic Realm - a CPP-based RPG game
 Developed by CPT113 Group 8 for Hackathon Assignment 2
+
+       H'NG SOOK WERN
+       JILLIAN YEOW EN YU
+       LEON THEN LEONG ONN
+
+   
 ***
 
 ## Table of contents
@@ -23,7 +29,8 @@ As you continue your adventure, the mesmerizing pixelated world around you inten
 
 To ensure a seamless and personalized gaming experience, the game incorporates an autosave feature. This feature automatically saves your progress without any user input, allowing you to effortlessly resume your journey whenever you return to the game. By eliminating the need for manual saving, you can easily pick up where you left off, ensuring a smooth and uninterrupted gameplay experience.
 
-So, will you conquer the goblin, witch, and big boss, unlocking your path to freedom? Only your skills, determination, and strategic thinking will lead you back to the familiar world you long for.
+> *So, will you conquer the goblin, witch, and big boss, unlocking your path to freedom?*
+> *Only your skills, determination, and strategic thinking will lead you back to the familiar world you long for.*
 
 ***
 
@@ -129,7 +136,7 @@ Enjoy your immersive journey through the fantasy world and may you triumph over 
 
 Our RPG game's code has been organized and structured using object-oriented principles, which provide a powerful framework for designing and implementing complex systems.  
 
-> #### Inheritance for Code Reuse and Specialization
+### (1) Inheritance for Code Reuse and Specialization
 
 The game uses inheritance to create specialized characters in order to facilitate code reuse and specialisation. Inheritance is used to build derived classes that inherit the traits and characteristics of a base class. An "is-a" relationship between classes is established, whereby a derived or child class inherits the characteristics of a base or parent class. There are a number of classes in our programmes, including the Goblin, Witch, and Boss classes, all of which are derived from the Character class to obtain the necessary information for each character in the game. 
 
@@ -139,19 +146,19 @@ The core foundation of our game's object-oriented design lies in the Character c
 
 To create specialized characters in the game, we employ derived classes that inherit from the Character class.
 
-> #### The Derived Classes: Goblin, Witch, and Boss
+### (2) The Derived Classes: Goblin, Witch, and Boss
 
 The Goblin, Witch, and Boss classes are derived classes that extend the functionality of the base class while adding their own unique characteristics. These derived classes inherit the attributes and member functions defined in the base class, allowing them to leverage the existing code and behaviour.
 
 Each derived class defines its own specific behaviours through member functions. For example, the Goblin class may have member functions for attacking, healing, and performing critical hits, while the Witch class may have additional member functions for magic attacks. These member functions represent the actions and abilities of each character type, encapsulating their specific behaviours and enabling modularity within the codebase.
 
 
-> #### Code Organization and Header Files
+### (3) Code Organization and Header Files
 
 To facilitate better code organization and management, the class definitions are separated into individual header files. This modular approach allows for better code maintainability and reusability, as each class declaration is encapsulated in its respective header file. By having separate header files for each class, we can easily navigate and modify the codebase, ensuring a clear separation of concerns and promoting a more structured and organized development process.
 
 
-> #### Conclusion
+### (4) Conclusion
 
 By utilising inheritance, our RPG game's code achieves a clear and hierarchical organization of classes, providing a flexible and extensible framework for implementing various game systems. The base Character class provides a foundation with shared functionality, while the derived classes specialize and extend that functionality to create unique character types. This approach promotes modularity, maintainability, and extensibility in the design and implementation of RPG game systems, making the codebase easier to understand, modify, and enhance.
 
@@ -168,7 +175,7 @@ There are two linked lists in the game, the first linked list is called Inventor
 
 
 
-> #### (1) Tracking Player Progress and Achievements with InventoryList Linked List
+### (1) Tracking Player Progress and Achievements with InventoryList Linked List
 
 In our captivating game, players find themselves in an extraordinary realm filled with challenges and powerful adversaries. The first linked list, known as the "InventoryList" plays a crucial role in tracking the player's progress, managing collected treasures, and enabling their victory in the game.
 
@@ -186,42 +193,83 @@ In conclusion, the InventoryList, with its appendNode and displayList functions,
 
 
 
-> #### (2) Game Completion and Linked Lists
+### (2) Game Completion and Linked Lists
 
 The ultimate goal of the player is to exit the realm, but this feat can only be achieved by collecting all three treasures: the gold ingot, emerald, and diamond. Here, the first linked list plays an irreplaceable role in determining the player's progress towards game completion. By acting as a condition for the exit, the linked list ensures that the player has collected all three treasures before the player could back to the world he used to be in. Without the linked list, the player would be unable to fulfil the requirements for game completion and subsequent exit.
 
 
-> #### (3) Enabling Save and Load Functionality with SaveNode Linked List
+### (3) Enabling Save and Load Functionality with SaveNode Linked List
 
 In addition to the Treasure Linked List, the game also utilizes another linked list called the SaveNode Linked List for the save and load functionality. The SaveNode Linked List stores crucial game data, including the completed levels by the player.
 
 
 The SaveNode Linked List is made up of individual nodes, where each node represents a completed level in the game.
 
- - #### appendNode function
+ - **`appendNode` function**
+
 To add a completed level to the SaveNode Linked List, the appendNode function is used. It creates a new node with the completed level information and adds the new node to the beginning of the linked list, representing the most recently completed level.
 
 The SaveNode Linked List is made up of individual nodes, where each node represents a completed level in the game.
 
- - #### saveGameToFile function
+ - **`saveGameToFile` function**
 
 The saveGameToFile function is responsible for saving the completed levels stored in the SaveNode Linked List to a file. It opens the file and traverses the linked list, writing the completedLevel of each node to the file. 
 
- - #### loadGameFromFile function
+ - **`loadGameFromFile` function**
 
 The loadGameFromFile function is used to load the saved game data from a file and add it to the existing SaveNode Linked List. It opens the file, reads the completedLevel from the file, creates a new node with the level, and adds it to the linked list. This allows the player to continue their game progress from the saved point.
 
- - #### freeSaveData function
+ -  **`freeSaveData` function**
 
 The freeSaveData function is used in our program to free the memory used by the SaveNode Linked List when it's no longer needed. In your code, the freeSaveData function is called after the game is cleared or when loading is complete.
 
 Overall, the SaveNode Linked List serves as a way for the game to keep track of the player's progress, save it to a file, and load it back when needed, providing a smooth and continuous gaming experience.
 
 
-> ####  (4) Enhancing player engagement
 
-By dynamically allocating and updating the linked lists, the game allows treasures to be added or removed as the player interacts with the game world. This dynamic nature of the linked lists enables the player to actively engage with their inventory, visualize their progress, and make strategic decisions that directly impact their gameplay experience.
+###  (4) Tracking the player's step count and movement with LinkedList 
+In our captivating game, player engagement is further enhanced through the implementation of a step count mechanism. 
 
-The inclusion of linked lists, such as the InventoryList Linked List and the saveNode Linked List, enhance player engagement and immersion. These linked lists provide clear visual representations of player progress, inventory management, and saved game data, creating a sense of achievement and progression.
 
-In our game, the linked lists are dynamically allocated. This has enabled the treasures to be added or removed easily as the player interacts with the game world, and game data is saved and loaded seamlessly, creating a sense of agency and immersion. As a result, players can actively engage with their inventory, visualize their progress, and make strategic decisions that directly impact their gameplay experience. They can strategically plan their battles, develop their skills, overcome formidable adversaries and adapt their gameplay strategy based on the information provided by the linked lists.
+The third linked list called `LinkedList` in our game, incorporated as part of the game's mechanics, plays a crucial role in tracking the player's step count and movement within the realm. It provides a dynamic and interactive way to monitor the player's progress and strategize their next moves effectively.
+
+Here are the separate functions involved in tracking the player's step count and movement using `LinkedList`:
+
+ - **`stepCount1()` function**
+
+This function is responsible for tracking the player's step count during Level 1. It prompts the player to input the number of steps taken and dynamically updates the LinkedList linked list using the insert() function. It ensures that the player does not exceed the required number of steps for Level 2.
+
+ - **`stepCount2()` function**
+
+After defeating the Witch boss and progressing to Level 2, this function continues the step count mechanism. It prompts the player to input the number of steps for Level 2 and updates the Linkedt linked list accordingly using the insert() function.
+
+ - **`insert()` function**
+
+This function is part of the LinkedList class and is used to insert a new node into the stepsList linked list. It is called by both `stepCount1()` and `stepCount2()` functions to accurately record the player's step count.
+
+ - **`getTotal()` function**
+
+Also part of the LinkedList class, this function calculates the total steps recorded in the stepsList linked list. It is used to compare the player's step count with the required number of steps for each level, ensuring they do not exceed the limit.
+
+
+This mechanism requires players to carefully consider their movement and input the correct number of steps to progress in the game. By incorporating the `stepCount1()` and `stepCount2()` functions, as well as the `getTotal()` and `insert()` functions of the LinkedList class, the game provides a unique and interactive gameplay experience, as exceeding the required number of steps can have serious consequences.
+
+If the player inadvertently moves too many steps and goes beyond the specified limit, it will led to a perilous outcome. Player will find themselves falling into a bottomless abyss, bringing their journey to an abrupt end. This consequence serves as a reminder to carefully plan and execute their movements.
+
+Using the `insert()` function of the LinkedList class, the `stepCount1()` function dynamically updates the stepsList linked list, keeping track of the player's step count. Each time the player inputs the number of steps, a new node is created and inserted into the linked list, accurately recording their movement.This recorded step count information is then used to determine whether the player has reached the required number of steps for Level 2. By utilizing the `getTotal()` function, which calculates the total steps recorded in stepsList, the game ensures that the player's step count does not exceed the required number. This prevents players from progressing without meeting the necessary step count and potentially facing a perilous fate, losing the game.
+
+Upon defeating the Witch and reaching Level 2, the `stepCount2()` function continues the step count mechanism. Players must again input the correct number of steps to progress to Level 3. The stepsList linked list is once again updated using the `insert()` function, accurately keeping track of the player's step count.
+
+By incorporating the step count mechanism and utilizing the `getTotal()` function, players are actively engaged in the decision-making process. The `insert()` function of the LinkedList class enables precise tracking of each step taken, providing players with a clear visual representation of their movement throughout the game. This mechanism adds depth, challenge, and immersion to overall gaming experience, making it more captivating and rewarding for player, enhancing the overall gameplay experience. 
+
+
+
+###  (5) Enhancing player gaming experience
+In conclusion, the inclusion of linked lists such as the `InventoryList` linked list, `saveNode` linked list, and `LinkedList` linked list greatly enhances the player gaming experience. These linked lists provide clear visual representations of player progress, inventory management, saved game data, and step count, creating a seamless and immersive gaming experience.
+
+The `InventoryList` Linked List empowers players to track their accomplishments, dynamically updating as they defeat formidable bosses and collect treasures, igniting a sense of achievement and driving them towards victory. The `saveNode` Linked List offers a seamless and convenient way to save and resume game progress, instilling a feeling of security and allowing players to immerse themselves in the adventure without fear of losing their hard-earned progress. The `LinkedList` Linked List enquires players to meticulously plan their movements and input the correct number of steps.
+
+Overall, these linked lists and their integrated functions transform the gaming experience into a captivating and immersive journey, enhancing player's gaming experience. 
+
+The inclusion of linked lists, such as the `InventoryList` Linked List, `saveNode` Linked List, and the `LinkedList` Linked List, greatly enhances player engagement and immersion. These linked lists provide clear visual representations of player progress, inventory management, saved game data, and step count, creating a seamless and immersive gaming experience.
+

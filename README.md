@@ -19,6 +19,7 @@ Developed by **CPT113 Group 8** for Hackathon Assignment 2.
 3. [How to play the game?](#how)
 4. [How object-oriented concepts were used to develop the game](#howOOP)
 5. [How linked lists/stacks/queues play a role in the game](#howLL)
+6. [Screenshots of the game](#screenshots)
    
 ***
 ## Description of the game <a name="description"></a>
@@ -274,3 +275,95 @@ Overall, these linked lists and their integrated functions transform the gaming 
 
 The inclusion of linked lists, such as the `InventoryList` Linked List, `saveNode` Linked List, and the `LinkedList` Linked List, greatly enhances player engagement and immersion. These linked lists provide clear visual representations of player progress, inventory management, saved game data, and step count, creating a seamless and immersive gaming experience.
 
+***
+## Screenshots of the game <a name="screenshots"></a>
+Displaying the welcome screen of our game named Mystic Realms as the basic introduction for the group members and the group name
+![enter image description here](https://i.imgur.com/XAU2nAE.png)
+
+Displaying the main menu allows the user to choose either 1 to start the game, 2 to load the previous stored game, 3 to see the credits of the programme, or 4 to quit the game. For this menu, we press 3 to show the credits interface.
+![enter image description here](https://i.imgur.com/8UgBDiF.png)
+
+The credit screen will be shown in this way
+![enter image description here](https://i.imgur.com/dECwNJ1.png)
+
+We press 4 to quit the game.
+![enter image description here](https://i.imgur.com/04Mn0ie.png)
+
+This screen will be shown when we quit the game.
+![enter image description here](https://i.imgur.com/uEubTHZ.png)
+
+Now, we press 1 to start the game.
+![enter image description here](https://i.imgur.com/7dtmqK8.png)
+
+The game started with a story about the player's encounter with a collision with a car that causes him to enter an extraordinary world.
+![enter image description here](https://i.imgur.com/IDC8QIg.png)
+
+Moving on with the second story, tell the player about what he has seen in this brand new world.
+![enter image description here](https://i.imgur.com/XgnpXmx.png)
+
+Suddenly, the player encounters the first monster, which is a Goblin. The player have to start his first fight with Goblin now!
+![enter image description here](https://i.imgur.com/lg48mae.png)
+
+When the player enters choice 1, he is able to attack the Goblin without any side effects.
+![enter image description here](https://i.imgur.com/hcUx8aG.png)
+
+When the player enters choice 2, the player will cause higher damage to the Goblin but will also cause a side effect at the same time, causing the deduction of the player’s HP besides the attack from the monster.
+![enter image description here](https://i.imgur.com/KAhL7X9.png)
+
+When the player selects choice 3, he can heal himself with 15 replenishments of HP. The fight will continue until one side has won.
+![enter image description here](https://i.imgur.com/ilvkH5l.png)
+
+Now we continue to play the game
+![enter image description here](https://i.imgur.com/wLjDFwU.png)
+
+When the player wins the fight, the screen below will be shown. Showing the information that the health has been replenished, the health potions have been refilled, and the player has collected the first item, a gold ingot. At the same time, the programme is saved successfully.
+![enter image description here](https://i.imgur.com/mX2n6wj.png)
+
+Now we close the programme and reload the previous progress by entering number 2.
+![enter image description here](https://i.imgur.com/9o2wDWo.png)
+
+Now we have to move 7 steps accurately to prevent falling into a trap and continue the game in the meantime.
+![enter image description here](https://i.imgur.com/R8Kh8k2.png)
+
+Now that we have successfully moved 7 steps, continue with the second story about the player being trapped in a school. The player has to overcome obstacles to escape from this place.
+![enter image description here](https://i.imgur.com/NJtCUNr.png)
+
+The player encounters a Witch now, and the second fight is on the verge of breaking out.
+![enter image description here](https://i.imgur.com/yXBTAX9.png)
+
+The winner of the second fight is belongs to Witch, player has loss the game. Game over will be shown.
+![enter image description here](https://i.imgur.com/FzTZY57.png)
+
+This is the case where the player wins the fight.
+![enter image description here](https://i.imgur.com/i1OnvEa.png)
+![enter image description here](https://i.imgur.com/lf7yIBn.png)
+
+The player has won the game this time. Showing that the player’s health has been replenished, the player’s health potions have been refilled, and the player has collected the second item, an emerald. Now, we pause and restart the game.
+![enter image description here](https://i.imgur.com/bajdLKL.png)
+
+The player enters 2 to load the previous game's progress.
+![enter image description here](https://i.imgur.com/Aap2baS.png)
+
+The player has to move carefully for 20 steps to continue the game.
+![enter image description here](https://i.imgur.com/Hnv2h61.png)
+
+Now that the player has successfully overcome the moving-step challenges, he can proceed with the third story of this game, telling that the monster Big Boss is coming.
+![enter image description here](https://i.imgur.com/qV7XY7X.png)
+
+Now the player has to defeat the monster to survive. He has to win the game and collect the third item, a diamond.
+![enter image description here](https://i.imgur.com/WsIXC84.png)
+
+The fight is started!
+![enter image description here](https://i.imgur.com/GaCy1FZ.png)
+
+This interface showed that the player has survive in the fight with the Big Boss.
+![enter image description here](https://i.imgur.com/F08vrIO.png)
+
+The player can return to his original world now that he has met the qualification of collecting the three items and survived in this horrible world.
+![enter image description here](https://i.imgur.com/rFqDpFX.png)
+
+The fourth story tells that the player is now back to his original world, waking up in a hospital while his mother is lying beside on his bed.
+![enter image description here](https://i.imgur.com/CYP2MU1.png)
+
+Game clear interface are shown. 
+![enter image description here](https://i.imgur.com/Kq9Acji.png)

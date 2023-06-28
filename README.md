@@ -277,13 +277,13 @@ The inclusion of linked lists, such as the `InventoryList` Linked List, `saveNod
 
 ***
 ## Screenshots of the game <a name="screenshots"></a>
-Displaying the welcome screen of our game named Mystic Realms as the basic introduction for the group members and the group name
+Displaying the welcome screen of our game named Mystic Realms as the basic introduction for the group members and the group name.
 ![enter image description here](https://i.imgur.com/XAU2nAE.png)
 
 Displaying the main menu allows the user to choose either 1 to start the game, 2 to load the previous stored game, 3 to see the credits of the programme, or 4 to quit the game. For this menu, we press 3 to show the credits interface.
 ![enter image description here](https://i.imgur.com/8UgBDiF.png)
 
-The credit screen will be shown in this way
+The credit screen will be shown in this way.
 ![enter image description here](https://i.imgur.com/dECwNJ1.png)
 
 We press 4 to quit the game.
@@ -313,13 +313,13 @@ When the player enters choice 2, the player will cause higher damage to the Gobl
 When the player selects choice 3, he can heal himself with 15 replenishments of HP. The fight will continue until one side has won.
 ![enter image description here](https://i.imgur.com/ilvkH5l.png)
 
-Now we continue to play the game
+Now, we continue to play the game.
 ![enter image description here](https://i.imgur.com/wLjDFwU.png)
 
-When the player wins the fight, the screen below will be shown. Showing the information that the health has been replenished, the health potions have been refilled, and the player has collected the first item, a gold ingot. At the same time, the programme is saved successfully.
+When the player wins the fight, the screen below will be shown. Showing the information that the health has been replenished, the health potions have been refilled, and the player has collected the first item, a gold ingot. At the same time, the game is saved successfully.
 ![enter image description here](https://i.imgur.com/mX2n6wj.png)
 
-Now we close the programme and reload the previous progress by entering number 2.
+Now we close the game and reload the previous progress by entering number 2.
 ![enter image description here](https://i.imgur.com/9o2wDWo.png)
 
 Now we have to move 7 steps accurately to prevent falling into a trap and continue the game in the meantime.

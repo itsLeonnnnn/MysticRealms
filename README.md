@@ -1,5 +1,16 @@
+# Mystic Realm
+Developed by CPT113 Group 8 for Hackathon Assignment 2
+***
 
-# Description of the game
+## Table of contents
+1. [Description of the game](#description)
+2. [Features of the game](#features)
+3. [How to play the game?](#how)
+4. [How object-oriented concepts were used to develop the game](#howOOP)
+5. [How linked lists/stacks/queues play a role in the game](#howLL)
+   
+***
+## Description of the game <a name="description"></a>
 In our thrilling game, the player is transported to an extraordinary world after a car accident. As the player, you find yourself in a mesmerizing pixelated form and hear a mysterious voice urging you to overcome challenges and find your way back home.
 
 As you explore this enigmatic realm, a radiant door catches your attention, beckoning you forward. You discover that you are inside a peculiar school, where robotic beings move unaware of your presence. To escape, you must awaken their consciousness.
@@ -14,10 +25,10 @@ To ensure a seamless and personalized gaming experience, the game incorporates a
 
 So, will you conquer the goblin, witch, and big boss, unlocking your path to freedom? Only your skills, determination, and strategic thinking will lead you back to the familiar world you long for.
 
+***
 
 
-
-# Features of the game
+## Features of the game <a name="features"></a>
 
  1. **Game Over and Victory Condition**
 
@@ -53,11 +64,11 @@ With the inclusion of the save and load feature, our game grants players the fre
    
      
 
+***
 
+## How to play the game <a name="how"></a>
 
-# How to play the game
-
-## Game Rules
+### Game Rules
 
  - After being transported to a mysterious and fantastical world, you
    embark on an epic adventure.
@@ -75,7 +86,7 @@ With the inclusion of the save and load feature, our game grants players the fre
  - Strategic thinking and resource management are crucial to win the
    game.
 
-## Guidelines
+### Guidelines
 
 1. This game is an immersive text-based role-playing game that takes you on an exciting journey through a fantasy world filled with challenges. 
 
@@ -119,13 +130,13 @@ With the inclusion of the save and load feature, our game grants players the fre
 14. If you choose "Quit," the game will gracefully exit.
 
 Enjoy your immersive journey through the fantasy world and may you triumph over the challenges that lie ahead! 
-
-# How object-oriented concepts were used to develop the game
+***
+## How object-oriented concepts were used to develop the game <a name="howOOP"></a>
 
 
 Our RPG game's code has been organized and structured using object-oriented principles, which provide a powerful framework for designing and implementing complex systems.  
 
-> ### Inheritance for Code Reuse and Specialization
+> #### Inheritance for Code Reuse and Specialization
 
 The game uses inheritance to create specialized characters in order to facilitate code reuse and specialisation. Inheritance is used to build derived classes that inherit the traits and characteristics of a base class. An "is-a" relationship between classes is established, whereby a derived or child class inherits the characteristics of a base or parent class. There are a number of classes in our programmes, including the Goblin, Witch, and Boss classes, all of which are derived from the Character class to obtain the necessary information for each character in the game. 
 
@@ -135,19 +146,19 @@ The core foundation of our game's object-oriented design lies in the Character c
 
 To create specialized characters in the game, we employ derived classes that inherit from the Character class.
 
-> ### The Derived Classes: Goblin, Witch, and Boss
+> #### The Derived Classes: Goblin, Witch, and Boss
 
 The Goblin, Witch, and Boss classes are derived classes that extend the functionality of the base class while adding their own unique characteristics. These derived classes inherit the attributes and member functions defined in the base class, allowing them to leverage the existing code and behavior.
 
 Each derived class defines its own specific behaviors through member functions. For example, the Goblin class may have member functions for attacking, healing, and performing critical hits, while the Witch class may have additional member functions for magic attacks. These member functions represent the actions and abilities of each character type, encapsulating their specific behaviors and enabling modularity within the codebase.
 
 
-> ### Code Organization and Header Files
+> #### Code Organization and Header Files
 
 To facilitate better code organization and management, the class definitions are separated into individual header files. This modular approach allows for better code maintainability and reusability, as each class declaration is encapsulated in its respective header file. By having separate header files for each class, we can easily navigate and modify the codebase, ensuring a clear separation of concerns and promoting a more structured and organized development process.
 
 
-> ### Conclusion
+> #### Conclusion
 
 By utilising inheritance, our RPG game's code achieves a clear and hierarchical organization of classes, providing a flexible and extensible framework for implementing various game systems. The base Character class provides a foundation with shared functionality, while the derived classes specialize and extend that functionality to create unique character types. This approach promotes modularity, maintainability, and extensibility in the design and implementation of RPG game systems, making the codebase easier to understand, modify, and enhance.
 
@@ -155,8 +166,8 @@ In conclusion, the use of object-oriented principles, specifically inheritance, 
 
 
 
-
-# How linked lists/stacks/queues play a role in the game
+***
+## How linked lists/stacks/queues play a role in the game <a name="howLL"></a>
 
 In our captivating game, players embark on an extraordinary adventure through a realm filled with challenges and powerful adversaries. The linked list plays a crucial role in tracking the player's progress, managing collected treasure, enabling the save and load feature and ultimately enabling their exit from the game.
 
@@ -164,7 +175,7 @@ There are two linked lists in the game, the first linked list is called Inventor
 
 
 
-> ### (1) Tracking Player Progress and Achievements with InventoryList Linked List
+> #### (1) Tracking Player Progress and Achievements with InventoryList Linked List
 
 In our captivating game, players find themselves in an extraordinary realm filled with challenges and powerful adversaries. The first linked list, known as the "InventoryList" plays a crucial role in tracking the player's progress, managing collected treasures, and enabling their victory in the game.
 
@@ -182,12 +193,12 @@ In conclusion, the InventoryList, with its appendNode and displayList functions,
 
 
 
-> ### (2) Game Completion and Linked Lists
+> #### (2) Game Completion and Linked Lists
 
 The ultimate goal of the player is to exit the realm, but this feat can only be achieved by collecting all three treasure: the gold ingot, emerald, and diamond. Here, the first linked list plays an irreplaceable role in determining the player's progress towards game completion. By acting as a condition for exit, the linked list ensures that the player has collected all three treasures before the player could back to the world he used to be. Without the linked list, the player would be unable to fulfill the requirements for game completion and subsequent exit.
 
 
-> ### (3) Enabling Save and Load Functionality with SaveNode Linked List
+> #### (3) Enabling Save and Load Functionality with SaveNode Linked List
 
 In addition to the Treasure Linked List, the game also utilizes another linked list called the SaveNode Linked List for the save and load functionality. The SaveNode Linked List stores crucial game data, including the completed levels by the player.
 
@@ -214,7 +225,7 @@ The freeSaveData function is used in our program to free the memory used by the 
 Overall, the SaveNode Linked List serves as a way for the game to keep track of the player's progress, save it to a file, and load it back when needed, providing a smooth and continuous gaming experience.
 
 
-> ###  (4) Enhancing player engagement
+> ####  (4) Enhancing player engagement
 
 By dynamically allocating and updating the linked lists, the game allows treasures to be added or removed as the player interacts with the game world. This dynamic nature of the linked lists enables the player to actively engage with their inventory, visualize their progress, and make strategic decisions that directly impact their gameplay experience.
 

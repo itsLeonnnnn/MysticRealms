@@ -1,5 +1,5 @@
 # Mystic Realms - a CPP-based RPG game
-Developed by **CPT113 Group 8**, serves as the coursework assignment (Hackathon 2) to be submitted to the course lecturers of CPT113 from School of Computer Sciences, Universiti Sains Malaysia (USM).
+Developed by **CPT113 Group 8**, serves as the coursework assignment (Hackathon 2) to be submitted to the course lecturers of CPT113 from the School of Computer Sciences, Universiti Sains Malaysia (USM).
 
 **Disclaimer:** This game is a product of our coursework assignment and is intended for educational purposes only. The game may contain bugs, errors, or incomplete features, as it is not a professional release.
 
@@ -20,6 +20,7 @@ Developed by **CPT113 Group 8**, serves as the coursework assignment (Hackathon 
 4. [How object-oriented concepts were used to develop the game](#howOOP)
 5. [How linked lists/stacks/queues play a role in the game](#howLL)
 6. [Screenshots of the game](#screenshots)
+7. [Gameplay Video](#video)
    
 ***
 ## Description of the game <a name="description"></a>
@@ -273,14 +274,14 @@ The `InventoryList` Linked List empowers players to track their accomplishments,
 
 Overall, these linked lists and their integrated functions transform the gaming experience into a captivating and immersive journey, enhancing player's gaming experience. 
 
-The inclusion of linked lists, such as the `InventoryList` Linked List, `saveNode` Linked List, and the `LinkedList` Linked List, greatly enhances player engagement and immersion. These linked lists provide clear visual representations of player progress, inventory management, saved game data, and step count, creating a seamless and immersive gaming experience.
+The inclusion of linked lists, such as the `InventoryList` Linked List, `saveNode` Linked List, and the `LinkedList` Linked List, greatly enhance player engagement and immersion. These linked lists provide clear visual representations of player progress, inventory management, saved game data, and step count, creating a seamless and immersive gaming experience.
 
 ***
 ## Screenshots of the game <a name="screenshots"></a>
 Displaying the welcome screen of our game named Mystic Realms as the basic introduction for the group members and the group name.
 ![enter image description here](https://i.imgur.com/XAU2nAE.png)
 
-Displaying the main menu allows the user to choose either 1 to start the game, 2 to load the previous stored game, 3 to see the credits of the programme, or 4 to quit the game. For this menu, we press 3 to show the credits interface.
+Displaying the main menu allows the user to choose either 1 to start the game, 2 to load the previously stored game, 3 to see the credits of the programme, or 4 to quit the game. For this menu, we press 3 to show the credits interface.
 ![enter image description here](https://i.imgur.com/8UgBDiF.png)
 
 The credit screen will be shown in this way.
@@ -298,10 +299,10 @@ Now, we press 1 to start the game.
 The game started with a story about the player's encounter with a collision with a car that causes him to enter an extraordinary world.
 ![enter image description here](https://i.imgur.com/IDC8QIg.png)
 
-Moving on with the second story, tell the player about what he has seen in this brand new world.
+Moving on with the second story, tell the player about what he has seen in this brand-new world.
 ![enter image description here](https://i.imgur.com/XgnpXmx.png)
 
-Suddenly, the player encounters the first monster, which is a Goblin. The player have to start his first fight with Goblin now!
+Suddenly, the player encounters the first monster, which is a Goblin. The player has to start his first fight with Goblin now!
 ![enter image description here](https://i.imgur.com/lg48mae.png)
 
 When the player enters choice 1, he is able to attack the Goblin without any side effects.
@@ -316,7 +317,7 @@ When the player selects choice 3, he can heal himself with 15 replenishments of 
 Now, we continue to play the game.
 ![enter image description here](https://i.imgur.com/wLjDFwU.png)
 
-When the player wins the fight, the screen below will be shown. Showing the information that the health has been replenished, the health potions have been refilled, and the player has collected the first item, a gold ingot. At the same time, the game is saved successfully.
+When the player wins the fight, the screen below will be shown. Shows the information that the health has been replenished, the health potions have been refilled, and the player has collected the first item, a gold ingot. At the same time, the game is saved successfully.
 ![enter image description here](https://i.imgur.com/mX2n6wj.png)
 
 Now we close the game and reload the previous progress by entering number 2.
@@ -331,7 +332,7 @@ Now that we have successfully moved 7 steps, continue with the second story abou
 The player encounters a Witch now, and the second fight is on the verge of breaking out.
 ![enter image description here](https://i.imgur.com/yXBTAX9.png)
 
-The winner of the second fight is belongs to Witch, player has loss the game. Game over will be shown.
+The winner of the second fight belongs to Witch, the player has lost the game. Game over will be shown.
 ![enter image description here](https://i.imgur.com/FzTZY57.png)
 
 This is the case where the player wins the fight.
@@ -356,14 +357,18 @@ Now the player has to defeat the monster to survive. He has to win the game and 
 The fight is started!
 ![enter image description here](https://i.imgur.com/GaCy1FZ.png)
 
-This interface showed that the player has survive in the fight with the Big Boss.
+This interface showed that the player has survived the fight with the Big Boss.
 ![enter image description here](https://i.imgur.com/F08vrIO.png)
 
-The player can return to his original world now that he has met the qualification of collecting the three items and survived in this horrible world.
+The player can return to his original world now that he has met the qualification of collecting the three items and surviving in this horrible world.
 ![enter image description here](https://i.imgur.com/rFqDpFX.png)
 
-The fourth story tells that the player is now back to his original world, waking up in a hospital while his mother is lying beside on his bed.
+The fourth story tells that the player is now back in his original world, waking up in a hospital while his mother is lying beside his bed.
 ![enter image description here](https://i.imgur.com/CYP2MU1.png)
 
-Game clear interface are shown. 
+Game clear interfaces are shown. 
 ![enter image description here](https://i.imgur.com/Kq9Acji.png)
+
+***
+**Gameplay Video**
+

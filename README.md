@@ -1,9 +1,11 @@
 # Mystic Realm - a CPP-based RPG game
 Developed by CPT113 Group 8 for Hackathon Assignment 2
 
-       H'NG SOOK WERN
-       JILLIAN YEOW EN YU
-       LEON THEN LEONG ONN
+| Members' Full Name | Matric No.  |
+|:-:|:-:|
+| H'NG SOOK WERN | 163561 |
+| JILLIAN YEOW EN YU | 164239 |
+| LEON THEN LEONG ONN | 163202 |
 
    
 ***
@@ -106,7 +108,7 @@ The save and load feature serves as a valuable and convenient tool for players, 
 
         a. "Attack": Deal damage to the goblin.
         b. "Critical Hit": Deliver a powerful strike at the cost of 
-        losing 5 HP.
+        losing HP.
         c. "Consume Health Potion": Heal your HP if it's low.
 
 7. After your action, see the outcome and adjust your HP and the goblin's HP accordingly.
